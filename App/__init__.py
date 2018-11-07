@@ -17,6 +17,7 @@ bootstrap = Bootstrap(app)
 moment = Moment(app)
 db = SQLAlchemy(app)
 babel = Babel(app)
+
 app.config.from_object(Config)
 # bp = Blueprint('errors', __name__)
 
